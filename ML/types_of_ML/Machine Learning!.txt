@@ -1,0 +1,55 @@
+Machine Learning is an application of artificial intelligence where a computer/machine
+learns from the past experiences (input data) and makes future predicions, the performance
+of such a system should be at least human level.
+
+Concepts:
+Data Labeling -- Basicamente, e o processo de indentificar um dataset, como videos, arquivos
+de texto, imagens e etc. Adicionando a eles um significado e labels informativas, elas, daram
+o contexto para que a inteligencia artificial aprenda, ou seja, vao ser as predefinicoes
+de leitura de um arquivo, ex: fazer com que uma maquina enchergue se tem um tumor em um
+determinado raio-X.
+
+Class -- Um tipo de label, ex: Cat and Dog 2 classes diferentes.
+
+Category -- Um tipo de categoria para as classes, como por exemplo: \
+Animais
+- Mamiferos
+-- Felinos, Caninos
+--- Cat    --- Dog
+Aqui criamos uma hierarquia de categorias!
+
+Input data -- "Banco de dados" do qual trabalhamos.
+
+Annotations -- adiciona uma label ou uma tag para uma determianda variavel, transformando-a
+em uma target-variable, essa, representara o dado dessa label que foi inserida. Permitindo
+que o machine learning seja treinado, validado ou avaliar.
+
+Supervised Learning:
+Classification -- Aplicacoes de classificacao fazem com que haja uma previsao para uma
+determinada situacao, como por exemplo, prever se o preco de uma determinado produto em um
+estoque, vai cair ou subir. Consiste em respostas binarias ou de multi-classe, ou seja,
+pode ser tanto True or False quanto Cat, Dog and Fish. 
+
+Regression -- Na regressao, temos uma previsao de um valor continuo com base no input data,
+exemplo: Prever o preco de uma casa com base em seu tamanho, numero de quartos e localizacao.
+Tambewm inlcui exemplos como estimar o futuro preco de um estoque com relacao as informacoes
+historicas do local e dos fatores de mercado do mesmo.
+
+Unsupervised Learning:
+Uma forma de aprendizado que visa o NAO tabelamento (labels) da input data, normalmente sao
+utilizadas para fazer clustering, que eh o agrupamento de determinados dados com base em 
+exemplos similares.
+
+Hibrid Learning:
+Utiliza das duas formas de aprendizado, para que nao seja necessario a rotulagem de todos os
+dados, pois isso gasta muito tempo, ou seja, eh bem melhor que seja utilizado uma ML que faca
+ambos, como por exemplo, Google Photos, a maior parte desses algoritmos sao feitos com uma 
+mistura dos dois tipos sitados acima.
+
+Reinforcemente Learning:
+Utilizada para atingir algum objetivo especificado, atraves da implementacao de um sistema
+(reward feedback), que basicamente, cria recompensas para determinada situacao, um exemplo:
+caso a IA esteja jogando um jogo de xadrez, a cada movimento certo q ela fizer, conta como 
++1 de felicidade, enquanto cada movimento negativo, conta como -1 de felicidade, sendo o 
+objetivo a ser alcancado, vencer o jogo, essa maquina vai buscar sempre os feedbacks positivos
+

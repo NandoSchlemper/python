@@ -1,0 +1,13 @@
+Numerical
+Discrete Data: Limitado por inteiros.
+Continuous Data: Igual ao preco de um carro por exemplo.
+
+Categorical:
+valores que sao categorias, como COR, e dentro de cor, temos AZUL.
+
+Ordinal:
+Sao iguais as categorias, com a diferenca que podem ser comparadas.
+Ex: School one is better than School two
+
+
+Start Code:
